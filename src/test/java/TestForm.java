@@ -14,7 +14,7 @@ public class TestForm {
 
     @BeforeClass
     void init() {
-        Configuration.baseUrl = "https://demoqa.com/automation-practice-form";
+            Configuration.baseUrl = "https://demoqa.com/automation-practice-form";
         Configuration.browserSize = "1920x1080";
         //Configuration.browser = "edge";
         Configuration.timeout = 30000;
